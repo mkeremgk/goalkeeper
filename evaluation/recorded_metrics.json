@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-07",
+  "model_sha256": "a70b1a70fd1ac564a65408d8a8106d97dd5698a95d182851fde96148a2cf93c2",
+  "source_sha256": {
+    "AI.java": "face92a6ac28aa3b2a22c567639565f49ede0a1e65a6f5c063ebc4ff65c5389b",
+    "Game.java": "2ffba8e32ff296b02b573f4fb11ff33e8d578d18e86568726f55442aaea4678f",
+    "Main.java": "9d83f65c070fa96afa677b51f082f48bc31f26dfde9586e2e7c26f114b4fa36c"
+  },
+  "architecture": [
+    5,
+    8,
+    1
+  ],
+  "trainable_parameters": 57,
+  "training_examples": 10000,
+  "epochs_active_config": 100,
+  "updates_per_training": 1000000,
+  "learning_rate": 0.001,
+  "learning_method": "supervised per-example gradient descent; analytic velocity labels; tanh activations",
+  "original_test": {
+    "shots": 10000000,
+    "saves": 10000000
+  },
+  "results": [
+    {
+      "label": "saved_agent",
+      "shots": 10000000,
+      "seed": 20261107,
+      "saves": 10000000,
+      "rate": 1.0,
+      "wilson95": [
+        0.999999615854,
+        1.0
+      ],
+      "stationary_saves": 2727095,
+      "normalized_mse": 0.0010310148644,
+      "normalized_rmse": 0.0321094201816,
+      "velocity_rmse_world_units": 0.321094201816,
+      "normalized_mae": 0.0233194044336,
+      "endpoint_rmse_world_units": 0.575146529757,
+      "ui_evaluated": false,
+      "ui_saves": 0,
+      "ui_disagreements": 0,
+      "seconds": 1.821187
+    },
+    {
+      "label": "saved_agent_gui_parity",
+      "shots": 1000000,
+      "seed": 20261108,
+      "saves": 1000000,
+      "rate": 1.0,
+      "wilson95": [
+        0.999996158556,
+        1.0
+      ],
+      "stationary_saves": 272370,
+      "normalized_mse": 0.00103193973376,
+      "normalized_rmse": 0.0321238187917,
+      "velocity_rmse_world_units": 0.321238187917,
+      "normalized_mae": 0.023335501939,
+      "endpoint_rmse_world_units": 0.575227076538,
+      "ui_evaluated": true,
+      "ui_saves": 1000000,
+      "ui_disagreements": 0,
+      "seconds": 0.214848
+    },
+    {
+      "label": "fresh_100_epochs_run_1",
+      "shots": 1000000,
+      "seed": 20261109,
+      "saves": 1000000,
+      "rate": 1.0,
+      "wilson95": [
+        0.999996158556,
+        1.0
+      ],
+      "stationary_saves": 273015,
+      "normalized_mse": 0.00108871844501,
+      "normalized_rmse": 0.0329957337395,
+      "velocity_rmse_world_units": 0.329957337395,
+      "normalized_mae": 0.0242806646735,
+      "endpoint_rmse_world_units": 0.595633991978,
+      "ui_evaluated": false,
+      "ui_saves": 0,
+      "ui_disagreements": 0,
+      "seconds": 0.18202
+    },
+    {
+      "label": "fresh_100_epochs_run_2",
+      "shots": 1000000,
+      "seed": 20261109,
+      "saves": 1000000,
+      "rate": 1.0,
+      "wilson95": [
+        0.999996158556,
+        1.0
+      ],
+      "stationary_saves": 273015,
+      "normalized_mse": 0.00118663574041,
+      "normalized_rmse": 0.0344475796016,
+      "velocity_rmse_world_units": 0.344475796016,
+      "normalized_mae": 0.0252134866953,
+      "endpoint_rmse_world_units": 0.608304107199,
+      "ui_evaluated": false,
+      "ui_saves": 0,
+      "ui_disagreements": 0,
+      "seconds": 0.177674
+    },
+    {
+      "label": "fresh_100_epochs_run_3",
+      "shots": 1000000,
+      "seed": 20261109,
+      "saves": 1000000,
+      "rate": 1.0,
+      "wilson95": [
+        0.999996158556,
+        1.0
+      ],
+      "stationary_saves": 273015,
+      "normalized_mse": 0.0011474996763,
+      "normalized_rmse": 0.0338747645939,
+      "velocity_rmse_world_units": 0.338747645939,
+      "normalized_mae": 0.0248847458454,
+      "endpoint_rmse_world_units": 0.600667385799,
+      "ui_evaluated": false,
+      "ui_saves": 0,
+      "ui_disagreements": 0,
+      "seconds": 0.180403
+    }
+  ],
+  "limitations": [
+    "Synthetic straight-line shots from fixed ball and goalkeeper start positions",
+    "Only two of five network inputs vary in current generated shots",
+    "Save tolerance is plus/minus three world units",
+    "Analytic target controller can solve the generated task without learning",
+    "No claim about real football or out-of-distribution performance",
+    "Saved model historical training epoch count unavailable; 100 epochs verified for current code and three fresh runs",
+    "Fresh training randomness is not seeded; evaluation randomness is seeded"
+  ]
+}

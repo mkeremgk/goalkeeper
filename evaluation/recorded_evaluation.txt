@@ -1,0 +1,18 @@
+Agent loaded.
+PARAMETERS 57
+ORIGINAL_TEST_BEGIN
+Total shots: 10000000
+Total saves: 10000000
+Save rate: 1.0
+ORIGINAL_TEST_END
+RESULT {"label":"saved_agent","shots":10000000,"seed":20261107,"saves":10000000,"rate":1.000000000000,"wilson95":[0.999999615854,1.000000000000],"stationary_saves":2727095,"normalized_mse":0.00103101486440,"normalized_rmse":0.0321094201816,"velocity_rmse_world_units":0.321094201816,"normalized_mae":0.0233194044336,"endpoint_rmse_world_units":0.575146529757,"ui_evaluated":false,"ui_saves":0,"ui_disagreements":0,"seconds":1.821187}
+RESULT {"label":"saved_agent_gui_parity","shots":1000000,"seed":20261108,"saves":1000000,"rate":1.000000000000,"wilson95":[0.999996158556,1.000000000000],"stationary_saves":272370,"normalized_mse":0.00103193973376,"normalized_rmse":0.0321238187917,"velocity_rmse_world_units":0.321238187917,"normalized_mae":0.0233355019390,"endpoint_rmse_world_units":0.575227076538,"ui_evaluated":true,"ui_saves":1000000,"ui_disagreements":0,"seconds":0.214848}
+epoch 0 error: 0.1722509845533743
+TRAINING run=1 examples=10000 epochs=100 updates=1000000 seconds=0.224841
+RESULT {"label":"fresh_100_epochs_run_1","shots":1000000,"seed":20261109,"saves":1000000,"rate":1.000000000000,"wilson95":[0.999996158556,1.000000000000],"stationary_saves":273015,"normalized_mse":0.00108871844501,"normalized_rmse":0.0329957337395,"velocity_rmse_world_units":0.329957337395,"normalized_mae":0.0242806646735,"endpoint_rmse_world_units":0.595633991978,"ui_evaluated":false,"ui_saves":0,"ui_disagreements":0,"seconds":0.182020}
+epoch 0 error: 0.17312215557737867
+TRAINING run=2 examples=10000 epochs=100 updates=1000000 seconds=0.212395
+RESULT {"label":"fresh_100_epochs_run_2","shots":1000000,"seed":20261109,"saves":1000000,"rate":1.000000000000,"wilson95":[0.999996158556,1.000000000000],"stationary_saves":273015,"normalized_mse":0.00118663574041,"normalized_rmse":0.0344475796016,"velocity_rmse_world_units":0.344475796016,"normalized_mae":0.0252134866953,"endpoint_rmse_world_units":0.608304107199,"ui_evaluated":false,"ui_saves":0,"ui_disagreements":0,"seconds":0.177674}
+epoch 0 error: 0.18109781641338396
+TRAINING run=3 examples=10000 epochs=100 updates=1000000 seconds=0.215742
+RESULT {"label":"fresh_100_epochs_run_3","shots":1000000,"seed":20261109,"saves":1000000,"rate":1.000000000000,"wilson95":[0.999996158556,1.000000000000],"stationary_saves":273015,"normalized_mse":0.00114749967630,"normalized_rmse":0.0338747645939,"velocity_rmse_world_units":0.338747645939,"normalized_mae":0.0248847458454,"endpoint_rmse_world_units":0.600667385799,"ui_evaluated":false,"ui_saves":0,"ui_disagreements":0,"seconds":0.180403}
