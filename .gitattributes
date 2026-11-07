@@ -1,0 +1,6 @@
+* text=auto
+*.java text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ser binary
+Makefile text eol=lf
